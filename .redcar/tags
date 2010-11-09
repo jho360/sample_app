@@ -1,0 +1,9 @@
+1289266431
+Application	/home/mrchess/Sites/rails_projects/sample_app/config/application.rb	  class Application 
+ApplicationController	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+PagesController	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
+PagesHelper	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
+SampleApp	/home/mrchess/Sites/rails_projects/sample_app/config/application.rb	module SampleApp
+contact	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
+home	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
