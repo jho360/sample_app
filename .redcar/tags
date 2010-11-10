@@ -1,4 +1,4 @@
-1289269911
+1289351336
 Application	/home/mrchess/Sites/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -8,3 +8,4 @@ SampleApp	/home/mrchess/Sites/rails_projects/sample_app/config/application.rb	mo
 about	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 contact	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 home	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
+title	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def title
