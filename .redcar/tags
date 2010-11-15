@@ -1,16 +1,20 @@
-1289781236
+1289862412
 Application	/home/mrchess/Sites/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+CreateUsers	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101115225626_create_users.rb	class CreateUsers 
 PagesController	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/home/mrchess/Sites/rails_projects/sample_app/config/application.rb	module SampleApp
+User	/home/mrchess/Sites/rails_projects/sample_app/app/models/user.rb	class User 
 UsersController	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
 UsersHelper	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 contact	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
+down	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101115225626_create_users.rb	  def self.down
 help	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
 logo	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def logo
 new	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 title	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def title
+up	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101115225626_create_users.rb	  def self.up
