@@ -1,4 +1,5 @@
-1289862412
+1289868744
+AddEmailUniquenessIndex	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101116005217_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 Application	/home/mrchess/Sites/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -12,9 +13,11 @@ UsersHelper	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/users_help
 about	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 contact	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 down	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101115225626_create_users.rb	  def self.down
+down	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101116005217_add_email_uniqueness_index.rb	  def self.down
 help	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
 logo	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def logo
 new	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 title	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def title
 up	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101115225626_create_users.rb	  def self.up
+up	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101116005217_add_email_uniqueness_index.rb	  def self.up
