@@ -1,5 +1,6 @@
-1289870708
+1290477192
 AddEmailUniquenessIndex	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101116005217_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
+AddPasswordToUsers	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123015114_add_password_to_users.rb	class AddPasswordToUsers 
 Application	/home/mrchess/Sites/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -14,11 +15,14 @@ about	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_contro
 contact	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 down	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101115225626_create_users.rb	  def self.down
 down	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101116005217_add_email_uniqueness_index.rb	  def self.down
+down	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123015114_add_password_to_users.rb	  def self.down
 help	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
 logo	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def logo
 new	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
+password	/home/mrchess/Sites/rails_projects/sample_app/app/models/user.rb	  attr_accessor     :password
 show	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def show
 title	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def title
 up	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101115225626_create_users.rb	  def self.up
 up	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101116005217_add_email_uniqueness_index.rb	  def self.up
+up	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123015114_add_password_to_users.rb	  def self.up
