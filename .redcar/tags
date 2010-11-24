@@ -1,4 +1,4 @@
-1290563930
+1290565491
 AddEmailUniquenessIndex	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101116005217_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123015114_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123022300_add_salt_to_users.rb	class AddSaltToUsers 
@@ -21,6 +21,7 @@ down	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123015114_add
 down	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123022300_add_salt_to_users.rb	  def self.down
 encrypt	/home/mrchess/Sites/rails_projects/sample_app/app/models/user.rb	    def encrypt
 encrypt_password	/home/mrchess/Sites/rails_projects/sample_app/app/models/user.rb	    def encrypt_password
+gravatar_for	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/users_helper.rb	  def gravatar_for
 has_password?	/home/mrchess/Sites/rails_projects/sample_app/app/models/user.rb	  def has_password?
 help	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
