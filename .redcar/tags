@@ -1,4 +1,4 @@
-1291080628
+1291170434
 AddEmailUniquenessIndex	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101116005217_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123015114_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123022300_add_salt_to_users.rb	class AddSaltToUsers 
@@ -15,6 +15,7 @@ UsersController	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/us
 UsersHelper	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 contact	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
+create	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def create
 down	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101115225626_create_users.rb	  def self.down
 down	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101116005217_add_email_uniqueness_index.rb	  def self.down
 down	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123015114_add_password_to_users.rb	  def self.down
