@@ -1,4 +1,4 @@
-1292789097
+1294007668
 AddEmailUniquenessIndex	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101116005217_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123015114_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101123022300_add_salt_to_users.rb	class AddSaltToUsers 
@@ -42,7 +42,9 @@ remember_token	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/session
 secure_hash	/home/mrchess/Sites/rails_projects/sample_app/app/models/user.rb	    def secure_hash
 show	/home/mrchess/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def show
 sign_in	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def sign_in
+sign_out	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def sign_out
 signed_in?	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
+test_sign_in	/home/mrchess/Sites/rails_projects/sample_app/spec/spec_helper.rb	  def test_sign_in
 title	/home/mrchess/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def title
 up	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101115225626_create_users.rb	  def self.up
 up	/home/mrchess/Sites/rails_projects/sample_app/db/migrate/20101116005217_add_email_uniqueness_index.rb	  def self.up
